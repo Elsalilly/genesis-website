@@ -5,14 +5,12 @@ main {
     width: 100%;
 }
 
-.project {
-    width: 1120px;
-    height: 381px;
-}
 
 .project_container {
+    width: 1110px;
+    height: 441px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .project_title {
@@ -46,11 +44,24 @@ ul {
     text-decoration: none;
 }
 
-.project_list {
+.wrapper_list {
     width: 335px;
     height: 343px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.project_list {
+    width: 335px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .project_li {
         font-size: 16px;
         font-weight: 700;
@@ -61,15 +72,14 @@ ul {
         font-size: 16px;
         font-weight: 700;
         color: #111111;
-        opacity: 1;
 }
-
 
 .project_linebreak {
     width: 335px;
     color: #111111;
     opacity: 0.6;
 } 
+
 
 .middle {
     width: 1110px;
@@ -98,6 +108,7 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
 .img_triple {
     width: 350px;
     height: 400px;

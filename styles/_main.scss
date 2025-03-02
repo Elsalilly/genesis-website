@@ -11,20 +11,27 @@ main {
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
     width: 1110px;
-    height: 1960px;
+    height: 2000px;
     align-items: center;
     justify-items: center;
-    grid-gap: 20px;
-}
-
-.grid_element {
-    overflow: hidden;
+    grid-gap: 10px;
 }
 
 .img-dance {
     grid-row: 1 / 8;
     grid-column: 1 / 4;
 }
+
+.grid_element {
+    overflow: hidden;
+}
+
+img:hover {
+    opacity: 0.3;
+    transition: 1s ease-in-out;
+    transform: scale(1.25);
+}
+
 
 .img-head {
     grid-row: 1 / 7;
@@ -47,22 +54,22 @@ main {
 }
 
 .img-drip {
-    grid-row: 11 / 17;
+    grid-row: 11 / 18;
     grid-column: 7 / 10;
 }
 
 .img-veil {
-    grid-row: 16 / 23;
+    grid-row: 17 / 23;
     grid-column: 1 / 4;
 }
 
 .img-walking {
-    grid-row: 14 / 22;
+    grid-row: 15 / 22;
     grid-column: 4 / 7;
 }
 
 .img-keyboard {
-    grid-row: 17 / 26;
+    grid-row: 19 / 25;
     grid-column: 7 / 10;
 }
 
@@ -78,7 +85,7 @@ main {
 
 .img-georgia {
     grid-row: 26 / 32;
-    grid-column: 7 / 11;
+    grid-column: 7 / 10;
 }
 
 .services {
@@ -119,57 +126,66 @@ ul {
     opacity: 0.6;
 }
 
-.awards {
-    width: 1110px;
-    height: 823px;
-}
-
 .awards_container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 1109px;
-    height: 303px;
-}
-
-.navigation {
-    display: flex;
-    flex-direction: row;
-    width: 635px;
-    height: 113px;
-}
-
-.titles {
-    width: 1109px;
-    height: 113px;
-    display: flex;
-    flex-direction: row;
+    height: 200px;
 }
 
 .awards_title {
     font-size: 22px;
     font-weight: 700;
     color:#111111;
+    width: 500px;
+    height: 303px;
 }
-
-/* titles, sites */
-
-.awards_li-head {
-    font-size: 18px;
+.awards_site {
+    width: 300px;
+    height: 113px;
     font-weight: 700;
+    font-size: 18px;
     color:#111111;
+    display: flex;
+    justify-content: flex-start;
 }
-
-.awards_li {
+.awards_UI {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 110px;
     font-size: 16px;
     color:#111111;
+}
+
+.awards_navigation {
+    width: 300px;
+    height: 113px;
+    font-weight: 700;
+    font-size: 18px;
+    color:#111111;
+    display: flex;
+    justify-content: flex-start;
+}
+.awards_year {
+    font-size: 16px;
+    color:#111111;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .awards_info {
     font-size: 16px;
+    line-height: 1.6;
     color:#111111;
     font-weight: 400;
     opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 .awards_linebreak {
