@@ -1,0 +1,12 @@
+@use 'fonts';
+
+@import 'footer';
+@import 'header';
+@import 'contact-main';
+
+body {
+    font-family: fonts.$main-font;
+    margin: auto;
+    width: 1360px;
+    height: 1375px;
+}
