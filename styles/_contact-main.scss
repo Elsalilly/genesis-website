@@ -1,7 +1,99 @@
 $main-txt-color: 000;
 
 
-
 main {
     width: 100%;
+}
+
+
+.contact_container {
+    width: 1110px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    height: 252px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact_title {
+    width: 450px;
+    height: 174px;
+    color: #111111;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact_text {
+    width: 400px;
+    height: 56px;
+    color: #111111;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.list {
+    height: 291px;
+    width: 475px;
+}
+
+.form {
+    width: 475px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.label {
+    width: 475px;
+}
+
+.input-field {
+    border:none;
+}
+
+.list_linebreak {
+    width: 475px;
+    color: #D8D8D8;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFF;
+}
+
+button {
+    width: 125px;
+    height: 50px;
+    background-color: #4A4FF2;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    border: none;
+}
+
+.img-block {
+    margin-top: 40px;
+    width: 1110px;
+    height: 700px;  
+}
+
+img {
+    width: 1110px;
+    height: 570px;
 }
