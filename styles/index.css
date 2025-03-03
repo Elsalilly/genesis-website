@@ -1860,6 +1860,9 @@ ul {
   font-size: 18px;
   color: #111111;
   opacity: 0.6;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 150px;
 }
 
 .awards_container {
