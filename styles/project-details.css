@@ -155,7 +155,7 @@ header {
 
 .header_block-text {
   width: 635px;
-  height: 191px;
+  height: 28px;
   color: #111111;
   font-size: 40px;
   font-weight: 700;
@@ -167,8 +167,30 @@ header {
           justify-content: flex-start;
 }
 
-.header_block-text::first-line {
+.header_block-secondline {
+  width: 635px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -40px;
+}
+
+.header_bluetext {
   color: #4A4FF2;
+  font-size: 40px;
+  font-weight: 700;
+  height: 28px;
+}
+
+.header_blacktext {
+  color: #111111;
+  font-size: 40px;
+  font-weight: 700;
+  height: 28px;
 }
 
 .header_content-quote {
@@ -187,6 +209,7 @@ header {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  margin-top: 30px;
 }
 
 .header_line {

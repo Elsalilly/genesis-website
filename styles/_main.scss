@@ -1,7 +1,6 @@
 $main-txt-color: 000;
 
 
-
 main {
     width: 100%;
 }
@@ -11,7 +10,7 @@ main {
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
     width: 1110px;
-    height: 2000px;
+    height: 1960px;
     align-items: center;
     justify-items: center;
     grid-gap: 10px;
@@ -44,12 +43,12 @@ img:hover {
 }
 
 .img-cactus {
-    grid-row: 8 / 16;
+    grid-row: 7 / 17;
     grid-column: 1 / 4;
 }
 
 .img-statue {
-    grid-row: 7 / 14;
+    grid-row: 6 / 15;
     grid-column: 4 / 7;
 }
 
@@ -69,7 +68,7 @@ img:hover {
 }
 
 .img-keyboard {
-    grid-row: 19 / 25;
+    grid-row: 18 / 26;
     grid-column: 7 / 10;
 }
 

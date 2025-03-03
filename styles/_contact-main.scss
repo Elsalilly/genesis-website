@@ -12,7 +12,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
 }
 
 .box {
@@ -42,6 +42,7 @@ main {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.6;
+    margin-top: 10px;
 }
 
 .list {
@@ -64,6 +65,14 @@ main {
 
 .input-field {
     border:none;
+    font-family: "Mulish", serif;
+    height: 30px;
+    margin-bottom: -15px;
+}
+
+.input-field:hover {
+    background-color: rgba(74, 80, 242, 0.089);
+    border-radius: 7px;
 }
 
 .list_linebreak {
@@ -85,6 +94,7 @@ button {
     font-weight: 700;
     align-items: center;
     border: none;
+    margin-top: 20px;
 }
 
 button:hover {
